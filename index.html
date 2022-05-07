@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Etch A Sketch</h1>
+    </header>
+    <main>
+        <div class="buttons">
+            <h3>Mode</h3>
+            <button class="btn btn-mode btn-default active">Default</button>
+            <button class="btn btn-mode btn-black">Black</button>
+            <button class="btn btn-mode btn-mixed">Mixed</button>
+            <button class="btn btn-mode btn-rainbow">Rainbow</button>
+            <button class="btn btn-clear">Clear</button>
+
+            <h3>Grid Density</h3>
+            <button class="btn btn-grid btn-large active" data-size="16">Large</button>
+            <button class="btn btn-grid btn-medium" data-size="32">Medium</button>
+            <button class="btn btn-grid btn-small" data-size="64">Small</button>
+        </div>
+        <div class="container"></div>
+    </main>
+    <footer>
+        <p><a href="https://github.com/thantmyat31"><i class="fab fa-github"></i></a> THANTMYAT <span class="pipe"></span> <a href="https://github.com/thantmyat31/etch-a-sketch" class="source">Source</a></p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/etch-a-sketch.js"></script>
+</body>
+</html>

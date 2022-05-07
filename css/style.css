@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    width:100%;
+    min-height:100vh;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    background:linear-gradient(142deg,#00465e, #a6ffef, #00465e) no-repeat;
+}
+header h1 {
+    margin-top:50px;
+    text-align:center;
+    color:#ffffff;
+    letter-spacing:2px;
+    font-size:50px;
+    text-shadow:0 0 1px #000, 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px #ddd;
+}
+main {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:50px;
+}
+.container {
+    width:700px;
+    height:700px;
+    background:#ffffff;
+    border:10px solid salmon;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:50px;
+    box-shadow:0 0 25px 2px #555;
+}
+.grid {
+    box-sizing:border-box;
+    border:1px solid #f1f1f1;
+}
+.buttons {
+    width:150px;
+}
+.buttons h3 {
+    color:#fff;
+    margin-bottom:10px;
+}
+.buttons .btn {
+    width:100%;
+    padding:12px;
+    border:none;
+    outline:none;
+    box-shadow:0 0 10px 2px #ffffff;
+    background:none;
+    margin-bottom: 21px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.buttons .btn:hover {
+    background:#125b6e;
+}
+.buttons .btn.active {
+    background:#125b6e;
+    box-shadow:0 0 10px 1px #125b6e;
+}
+footer {
+    margin-top:50px;
+}
+footer p {
+    font-family:sans-serif;
+    text-align:center;
+    letter-spacing:2px;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#fff;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+footer p span.pipe {
+    display:inline-block;
+    height:20px;
+    width:1px;
+    background:#fff;
+    margin:0 15px;
+}
+footer p a {
+    color:#fff;
+    text-decoration:none;
+    display: inline-block;
+}
+footer p a i.fab {
+    font-size:1.4em;
+    transition:0.1s;
+    margin-right:5px;
+}
+footer p a i.fab:hover {
+    transform:scale(1.1);
+}
+footer p a.source:hover {
+    text-decoration:underline;
+}
